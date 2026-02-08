@@ -1,0 +1,23 @@
+# Agentic RAG Project Dependencies - MINIMAL VERSION
+# Updated: February 2025
+# This version only lists top-level packages - pip will handle all dependencies
+
+# Core AI Frameworks
+crewai==1.9.3
+crewai-tools==1.9.3
+
+# LangChain
+langchain-groq
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+
+# Vector Database & Embeddings
+faiss-cpu
+sentence-transformers
+
+# PDF Processing
+pypdf
+
+# Utilities
+python-dotenv
