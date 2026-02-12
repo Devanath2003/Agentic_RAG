@@ -1,16 +1,20 @@
 # Agentic RAG Project Dependencies - MINIMAL VERSION
-# Updated: February 2025
-# This version only lists top-level packages - pip will handle all dependencies
+# Updated: February 2026
+# Minimal top-level dependencies
 
 # Core AI Frameworks
 crewai==1.9.3
 crewai-tools==1.9.3
+
+# CrewAI Gemini provider (required for gemini-2.0-flash)
+google-generativeai
 
 # LangChain
 langchain-groq
 langchain-community
 langchain-text-splitters
 langchain-huggingface
+langchain-google-genai
 
 # Vector Database & Embeddings
 faiss-cpu
@@ -21,3 +25,7 @@ pypdf
 
 # Utilities
 python-dotenv
+
+
+# pip install -r requirements.txt
+# python.exe -m pip install --upgrade pip
