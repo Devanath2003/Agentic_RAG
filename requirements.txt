@@ -1,31 +1,7 @@
-# Agentic RAG Project Dependencies - MINIMAL VERSION
-# Updated: February 2026
-# Minimal top-level dependencies
-
-# Core AI Frameworks
 crewai==1.9.3
-crewai-tools==1.9.3
-
-# CrewAI Gemini provider (required for gemini-2.0-flash)
-google-generativeai
-
-# LangChain
-langchain-groq
-langchain-community
-langchain-text-splitters
-langchain-huggingface
-langchain-google-genai
-
-# Vector Database & Embeddings
-faiss-cpu
-sentence-transformers
-
-# PDF Processing
-pypdf
-
-# Utilities
-python-dotenv
-
-
-# pip install -r requirements.txt
-# python.exe -m pip install --upgrade pip
+crewai_tools==1.9.3
+langchain_community==0.4.1
+langchain_groq==1.1.2
+langchain_huggingface==1.2.0
+langchain_text_splitters==1.1.0
+python-dotenv==1.2.1

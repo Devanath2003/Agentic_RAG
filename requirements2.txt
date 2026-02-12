@@ -1,0 +1,22 @@
+crewai[tools,litellm]==1.9.3
+
+# LangChain
+langchain-groq
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+
+# Vector DB & PDF
+faiss-cpu
+pypdf
+
+# Embeddings — pinned to work with crewai's tokenizers==0.20.3
+sentence-transformers==2.7.0
+tokenizers==0.20.3
+
+# LLM APIs
+langchain-groq
+google-generativeai       # ← the package you forgot
+
+# Utils
+python-dotenv
